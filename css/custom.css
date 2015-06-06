@@ -11,6 +11,14 @@ ul.nav {
 	font-size: 13px;
 }
 
+ul.Influences {
+	font-family: 'Arvo', courier, serif;
+	font-size: 20px;
+	text-align: left;
+  font-weight: 300;
+  color: #686868;
+}
+
 footer {
 	background-color: #383838;
 	padding-top: 150px;
@@ -179,4 +187,3 @@ img.bg {
 	}
 
 }
-
