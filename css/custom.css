@@ -22,33 +22,24 @@ table {
 	margin-bottom: 20px;
 }
 
-#music {
-	background-color: #202020;
-	padding-top: 20px;
-}
-
 #who {
 	background-color: black;
 }
 
-#Artist {
-	background-color: #404040;
-}
-
-#Colab {
-	background-color: #303030;
+#threepiece {
+	background-color: #480000;
 }
 
 .flush {
 	border: 0px;
-	padding: 0px 10px;
+	padding: 0px 20px;
 	margin: 0px;
 }
 
 .jumbotron {
 	text-align: center;
 	background-attachment: fixed;
-	background-image: url('../images/sadpass/title.jpg');
+	background-image: url('../images/Sadpass/title.jpg');
 	background-size: cover;
 	margin-bottom: 0px;
 
