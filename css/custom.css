@@ -24,10 +24,19 @@ table {
 
 #music {
 	background-color: #202020;
+	padding-top: 20px;
 }
 
 #who {
 	background-color: black;
+}
+
+#Artist {
+	background-color: #404040;
+}
+
+#Colab {
+	background-color: #303030;
 }
 
 .flush {
