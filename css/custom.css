@@ -47,8 +47,8 @@ table {
 
 .jumbotron {
 	text-align: center;
-	background-image: url('../images/sadpass/title.jpg');
 	background-attachment: fixed;
+	background-image: url('../images/sadpass/title.jpg');
 	background-size: cover;
 	margin-bottom: 0px;
 
