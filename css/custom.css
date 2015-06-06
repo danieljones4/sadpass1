@@ -48,7 +48,7 @@ table {
 .jumbotron {
 	text-align: center;
 	background-attachment: fixed;
-	background-image: url('../images/sadpass/title.jpg');
+	background-image: url('../images/Sadpass/title.jpg');
 	background-size: cover;
 	margin-bottom: 0px;
 
@@ -188,4 +188,3 @@ img.bg {
 	}
 
 }
-
