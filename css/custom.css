@@ -1,6 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 ul.nav, .jumbotron h1 {
@@ -26,7 +26,7 @@ footer {
 }
 
 table {
-	height: 600px;
+	height: 700px;
 	margin-bottom: 20px;
 }
 
@@ -36,6 +36,12 @@ table {
 
 #threepiece {
 	background-color: #480000;
+}
+
+.navbar-fixed-top {
+	top: inherit;
+	position: relative;
+	margin-bottom: 0px;
 }
 
 .flush {
@@ -50,7 +56,8 @@ table {
 	background-image: url('../images/Sadpass/title.jpg');
 	background-size: cover;
 	margin-bottom: 0px;
-
+	top: 0;
+  	border-width: 0 0 1px;
 }
 
 /* background image copy pasta */ 
