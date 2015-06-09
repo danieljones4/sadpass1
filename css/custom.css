@@ -38,10 +38,31 @@ table {
 	background-color: #480000;
 }
 
-.navbar-fixed-top {
-	top: inherit;
-	position: relative;
+.navbar {
+	border-width: 0 0 1px;
+	right: 0;
+	left: 0;
+	z-index: 1030;
 	margin-bottom: 0px;
+	border-radius: 0;
+	border: 0px;
+}
+
+.nav-placeholder {
+	min-height: 50px;
+}
+
+.navbar-fixed-top {
+	width: 100%;
+	left: 0;
+	padding-right: 15px;
+	background-color: #222;
+}
+
+.navbar-fixed-top .nav-inner {
+	max-width: 700px;
+	margin: 0 auto;
+	background-color: #222;
 }
 
 .flush {
