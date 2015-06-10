@@ -30,8 +30,14 @@ table {
 	margin-bottom: 20px;
 }
 
+
 #who {
 	background-color: black;
+	text-align: left;
+}
+
+#who p {
+		text-align: left;
 }
 
 #threepiece {
