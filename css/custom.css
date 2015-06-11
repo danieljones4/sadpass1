@@ -27,7 +27,6 @@ footer {
 
 table {
 	height: 700px;
-	margin-bottom: 20px;
 }
 
 
@@ -87,8 +86,9 @@ table {
 }
 
 .imgdiv {
-	background-image: url('../images/Sadpass/main.jpg');
+	background-image: url('../images/Sadpass/imgdiv.jpg');
 	background-size: cover;
+	height: 1000px;
 }
 
 /* background image copy pasta */ 
