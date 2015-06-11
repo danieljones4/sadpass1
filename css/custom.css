@@ -43,6 +43,10 @@ table {
 	background-color: #480000;
 }
 
+.deadspace {
+	height: 700px;
+}
+
 .navbar {
 	border-width: 0 0 1px;
 	right: 0;
@@ -88,7 +92,9 @@ table {
 .imgdiv {
 	background-image: url('../images/Sadpass/imgdiv.jpg');
 	background-size: cover;
-	height: 1000px;
+	background-attachment: relative;
+	background-position: -20px 0px 0px 0px;
+	height: 800px;
 }
 
 /* background image copy pasta */ 
