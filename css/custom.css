@@ -89,6 +89,10 @@ table {
   	border-width: 0 0 1px;
 }
 
+ .parallax-container {
+      height: 400px;
+    }
+
 .imgdiv {
 	background-image: url('../images/Sadpass/imgdiv.jpg');
 	background-size: cover;
