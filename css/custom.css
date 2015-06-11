@@ -86,6 +86,11 @@ table {
   	border-width: 0 0 1px;
 }
 
+.imgdiv {
+	background-image: url('../images/Sadpass/main.jpg');
+	background-size: cover;
+}
+
 /* background image copy pasta */ 
 
 img.bg {
