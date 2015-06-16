@@ -215,6 +215,22 @@ img.bg {
 	font-weight: 700;
 }
 
+.row {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.col {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    
+    padding: 1em;
+    border: solid;
+}
+
+
 /* Responsive Styling */
 
 @media (max-width: 1199px) { 
