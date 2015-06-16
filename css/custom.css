@@ -114,9 +114,7 @@ table {
 	background-attachment: fixed;
 
 }
-.brick p {
-	font-size: 10px;
-}
+
 /* background image copy pasta */ 
 
 img.bg {
@@ -199,6 +197,20 @@ img.bg {
 	margin-top: 15px;
 }
 
+.Background {
+	background-color: white;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.boxes {
+	background-color: white;
+}
+
+.credits p {
+	font-size: 16px;
+	font-weight: 700;
+}
+
 /* Responsive Styling */
 
 @media (max-width: 1199px) { 
@@ -254,3 +266,5 @@ img.bg {
 	}
 
 }
+
+
