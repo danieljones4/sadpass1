@@ -198,12 +198,16 @@ img.bg {
 }
 
 .Background {
+	padding: 20px;
 	background-color: white;
-	box-shadow: 10px 10px 5px #888888;
 }
 
 .boxes {
-	background-color: white;
+	box-shadow: 5px 5px 20px #888888;
+	border-radius: 10px;
+	background-color: black;
+	height: 250px;
+	padding: 0px;
 }
 
 .credits p {
