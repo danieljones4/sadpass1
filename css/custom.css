@@ -114,7 +114,9 @@ table {
 	background-attachment: fixed;
 
 }
-
+.brick p {
+	font-size: 10px;
+}
 /* background image copy pasta */ 
 
 img.bg {
