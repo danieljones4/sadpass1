@@ -203,13 +203,33 @@ img.bg {
 }
 
 .boxes {
-	background-color: white;
+	background-color: grey;
+	opacity: 0.7;
+	border-radius: 15px;
+	border: -15px;
+	padding: 0
 }
 
 .credits p {
 	font-size: 16px;
 	font-weight: 700;
 }
+
+.row {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.col {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    
+    padding: 1em;
+    border: solid;
+}
+
 
 /* Responsive Styling */
 
