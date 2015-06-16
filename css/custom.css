@@ -15,8 +15,8 @@ ul.Influences {
 	font-family: 'Arvo', courier, serif;
 	font-size: 20px;
 	text-align: left;
-  font-weight: 300;
-  color: #686868;
+	font-weight: 300;
+	color: #686868;
 }
 
 footer {
@@ -71,6 +71,10 @@ table {
 .navbar-fixed-top .nav-inner {
 	margin: 0 auto;
 	background-color: #222;
+}
+
+.navbar-brand {
+	padding: 10px;
 }
 
 .flush {
