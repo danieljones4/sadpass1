@@ -107,10 +107,18 @@ table {
 
 .brickwall {
 	background-image: url('../images/Sadpass/brickwall.jpg');
-	height: 600px;
 	background-size: cover;
 	background-attachment: fixed;
+	font-size: 30px;
+	color: yellow;
+}
 
+.brickwall p {
+	margin: 20px 0px;
+}
+
+.movcredit {
+	padding: 50px 0px;
 }
 
 /* background image copy pasta */ 
