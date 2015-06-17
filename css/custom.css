@@ -202,7 +202,7 @@ img.bg {
 	border-radius: 10px;
 	background-color: black;
 	height: 250px;
-	margin: 20px 0px;
+	margin: 10px 0px;
 }
 
 .credits p {
@@ -210,22 +210,29 @@ img.bg {
 	font-weight: 700;
 }
 
-.heading {
+.Background {
+	margin: 50px 0px;
     height: 100%;
     width: 100%;
-    background: red;
     position: absolute;
+    color: white;
 }
+
 .foreground {
     position: absolute;
     bottom: -100%;
     height : 100%;
     width : 100%;
-    background: blue;
+    background: #888888;
     border-radius: 10px;
     -webkit-transition: bottom 1s;
     transition: bottom 1s;
 }
+
+.foreground p {
+	color: black;
+}
+
 .boxes {
     position: relative;
     height:250px;
