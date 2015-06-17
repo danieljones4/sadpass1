@@ -40,7 +40,6 @@ table {
 }
 
 #threepiece {
-	background-color: #480000;
 }
 
 .deadspace {
@@ -104,7 +103,6 @@ table {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: -20px 0px 0px 0px;
-	height: 700px;
 }
 
 .brickwall {
