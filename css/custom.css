@@ -197,15 +197,20 @@ img.bg {
 
 .boxes {
 	box-shadow: 5px 5px 20px #888888;
-	border-radius: 10px;
 	background-color: black;
 	height: 250px;
 	margin: 10px 0px;
+	background-color: #4C4C4C;
+	opacity: 0.7;
+	border-radius: 15px;
+	border: -15px;
+	padding: 0
 }
 
 .credits p {
 	font-size: 16px;
 	font-weight: 700;
+	color: white;
 }
 
 .Background {
