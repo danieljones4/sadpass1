@@ -197,11 +197,6 @@ img.bg {
 	margin-top: 15px;
 }
 
-.Background {
-	padding: 20px;
-	background-color: white;
-}
-
 .boxes {
 	box-shadow: 5px 5px 20px #888888;
 	border-radius: 10px;
@@ -227,19 +222,19 @@ img.bg {
     height : 100%;
     width : 100%;
     background: blue;
-    opacity:0;
-    height:0;
+    opacity:1;
     border-radius: 10px;
+    -webkit-transition: bottom 1s;
+    transition: bottom 1s;
 }
 .boxes {
     position: relative;
-    height:200px;
+    height:250px;
     overflow:hidden;
 }
+
 .boxes:hover .foreground {
     bottom: 0;
-    -webkit-transition: all 1s, -webkit-transform 1s;
-    transition: all 1s, transform 1s;
     width:100%;
     height:100%;
     opacity:1;
