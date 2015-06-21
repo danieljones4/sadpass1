@@ -52,6 +52,9 @@
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
 
+    <!-- Music Playa -->
+    <link href="css/music.css" rel="stylesheet"> 
+
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -74,51 +77,7 @@
         fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<script type="text/javascript">
 
-soundManager.setup({
-
-  // location: path to SWF files, as needed (SWF file name is appended later.)
-
-  url: '/swf',
-
-  // optional: version of SM2 flash audio API to use (8 or 9; default is 8 if omitted, OK for most use cases.)
-  // flashVersion: 9,
-
-  // use soundmanager2-nodebug-jsmin.js, or disable debug mode (enabled by default) after development/testing
-  // debugMode: false,
-
-  // good to go: the onready() callback
-
-  onready: function() {
-
-    // SM2 has started - now you can create and play sounds!
-
-    var mySound = soundManager.createSound({
-      id: 'aSound', // optional: provide your own unique id
-      url: '/Music/MoveOn.mp3'
-      // onload: function() { console.log('sound loaded!', this); }
-      // other options here..
-    });
-
-    mySound.play();
-
-  },
-
-  // optional: ontimeout() callback for handling start-up failure
-
-  ontimeout: function() {
-
-     Hrmm, SM2 could not start. Missing SWF? Flash blocked? No HTML5 audio support? Show an error, etc.?
-    // See the flashblock demo when you want to start getting fancy.
-
-  }
-
-});
-
-</script>
-
- 
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="parallax-container">
@@ -130,30 +89,178 @@ soundManager.setup({
       </div>
     </div>
 
-    <nav>   
-      <div class="navbar navbar-inverse" role="navigation">
-        <div class="flush">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="images/Sadpass/logo.png" alt="Sadpass" title="Sadpass" height="35" width="inherit" ></a>
+    <nav> 
+      <div class="sm2-bar-ui full-width">
+
+         <div class="bd sm2-main-controls">
+
+          <div class="sm2-inline-texture"></div>
+          <div class="sm2-inline-gradient"></div>
+
+          <div class="sm2-inline-element sm2-button-element">
+           <div class="sm2-button-bd">
+            <a href="#play" class="sm2-inline-button play-pause">Play / pause</a>
+           </div>
           </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <div class="sm2-bar-ui full-width"></div></li>
-              <li><a href="#who">What Is Sadpass</a></li>
-              <li><a href="#music">Music</a></li>
-              <li><a href="#Artist">Artist</a></li>
-              <li><a href="#Colab">Colab</a></li>
+
+          <div class="sm2-inline-element sm2-inline-status">
+
+           <div class="sm2-playlist">
+            <div class="sm2-playlist-target">
+             <!-- playlist <ul> + <li> markup will be injected here -->
+             <!-- if you want default / non-JS content, you can put that here. -->
+             <noscript><p>JavaScript is required.</p></noscript>
+            </div>
+           </div>
+
+           <div class="sm2-progress">
+            <div class="sm2-row">
+            <div class="sm2-inline-time">0:00</div>
+             <div class="sm2-progress-bd">
+              <div class="sm2-progress-track">
+               <div class="sm2-progress-bar"></div>
+               <div class="sm2-progress-ball"><div class="icon-overlay"></div></div>
+              </div>
+             </div>
+             <div class="sm2-inline-duration">0:00</div>
+            </div>
+           </div>
+
+          </div>
+
+          <div class="sm2-inline-element sm2-button-element sm2-volume">
+           <div class="sm2-button-bd">
+            <span class="sm2-inline-button sm2-volume-control volume-shade"></span>
+            <a href="#volume" class="sm2-inline-button sm2-volume-control">volume</a>
+           </div>
+          </div>
+
+          <div class="sm2-inline-element sm2-button-element sm2-menu">
+           <div class="sm2-button-bd">
+            <a href="#menu" class="sm2-inline-button menu">menu</a>
+           </div>
+          </div>
+
+         </div>
+
+         <div class="bd sm2-playlist-drawer sm2-element">
+
+          <div class="sm2-inline-texture">
+           <div class="sm2-box-shadow"></div>
+          </div>
+
+          <!-- playlist content is mirrored here -->
+
+          <div class="sm2-playlist-wrapper">
+            
+            <ul class="sm2-playlist-bd">
+
+             <!-- example: playable link, "buy" link, "download" link -->
+             <li>
+              <div class="sm2-row">
+               <div class="sm2-col sm2-wide">
+                <a href="http://freshly-ground.com/data/audio/sm2/Figub%20Brazlevi%C4%8D%20-%20Bosnian%20Syndicate.mp3" class="exclude button-exclude inline-exclude"><b>Figub Brazlevič</b> - Bosnian Syndicate <span title="Published under a Creative Commons BY-NC-ND license" class="label">(BY-CC-ND license)</span></a>
+               </div>
+               <div class="sm2-col">
+                <a href="http://figubbrazlevic.bandcamp.com/track/bosnian-syndicate" target="_blank" title="Buy &quot;Bosnian Syndicate&quot;" class="sm2-icon sm2-cart">Buy this track</a>
+               </div>
+               <div class="sm2-col">
+                <a href="http://freshly-ground.com/data/audio/sm2/Figub%20Brazlevi%C4%8D%20-%20Bosnian%20Syndicate.mp3" target="_blank" title="Download &quot;Bosnian Syndicate&quot;" class="sm2-icon sm2-music sm2-exclude">Download this track</a>
+               </div>
+              </div>
+             </li>
+
+             <!-- example: playable link, "download" link -->
+             <li>
+              <div class="sm2-row">
+               <div class="sm2-col sm2-wide">
+                <a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20Let%20Me%20%28Prod%202oolman%29.mp3"><b>SonReal</b> - Let Me <span class="label">Explicit</span></a>
+               </div>
+               <div class="sm2-col">
+                <a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20Let%20Me%20%28Prod%202oolman%29.mp3" target="_blank" title="Download &quot;Let Me&quot;" class="sm2-icon sm2-music sm2-exclude">Download this track</a>
+               </div>
+              </div>
+             </li>
+
+             <!-- standard one-line items, no extra links -->
+             <li><a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20LA%20%28Prod%20Chin%20Injetti%29.mp3"><b>SonReal</b> - LA (Prod. Chin Injetti)<span class="label">Explicit</span></a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20People%20Asking.mp3"><b>SonReal</b> - People Asking <span class="label">Explicit</span></a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20Already%20There%20Remix%20ft.%20Rich%20Kidd,%20Saukrates.mp3"><b>SonReal</b> - Already There Remix ft. Rich Kidd, Saukrates <span class="label">Explicit</span></a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/The%20Fugitives%20-%20Graffiti%20Sex.mp3"><b>The Fugitives</b> - Graffiti Sex</a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/Adrian%20Glynn%20-%20Seven%20Or%20Eight%20Days.mp3"><b>Adrian Glynn</b> - Seven Or Eight Days</a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20I%20Tried.mp3"><b>SonReal</b> - I Tried</a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/gong-192kbps.mp3">32" Gong Sounds (rubber + standard mallets)</a></li>
+             <li><a href="http://freshly-ground.com/data/audio/mpc/20060826%20-%20Armstrong.mp3">Armstrong Beat</a></li>
+             <li><a href="http://freshly-ground.com/data/audio/mpc/20090119%20-%20Untitled%20Groove.mp3">Untitled Groove</a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/birds-in-kauai-128kbps-aac-lc.mp4">Birds In Kaua'i (AAC)</a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/20130320%20-%20Po%27ipu%20Beach%20Waves.ogg">Po'ipu Beach Waves (OGG)</a></li>
+             <li><a href="http://freshly-ground.com/data/audio/sm2/bottle-pop.wav">A corked beer bottle (WAV)</a></li>
+             <li><a href="../../demo/_mp3/rain.mp3">Rain</a></li>
+            
             </ul>
-          </div><!--/.nav-collapse -->
+          
+          </div>
+
+          <div class="sm2-extra-controls">
+
+           <div class="bd">
+
+            <div class="sm2-inline-element sm2-button-element">
+             <a href="#prev" title="Previous" class="sm2-inline-button previous">&lt; previous</a>
+            </div>
+
+            <div class="sm2-inline-element sm2-button-element">
+             <a href="#next" title="Next" class="sm2-inline-button next">&gt; next</a>
+            </div>
+
+            <!-- not implemented -->
+            <!--
+            <div class="sm2-inline-element sm2-button-element disabled">
+             <div class="sm2-button-bd">
+              <a href="#repeat" title="Repeat playlist" class="sm2-inline-button repeat">&infin; repeat</a>
+             </div>
+            </div>
+            -->
+
+            <!-- not implemented -->
+            <!--
+            <div class="sm2-inline-element sm2-button-element disabled">
+             <a href="#shuffle" title="Shuffle" class="sm2-inline-button shuffle">shuffle</a>
+            </div>
+            -->
+
+           </div>
+
+          </div>
+
+         </div>
+
         </div>
-      </div>
+
+
+        <div class="navbar navbar-inverse" role="navigation">
+          <div class="flush">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="images/Sadpass/logo.png" alt="Sadpass" title="Sadpass" height="35" width="inherit" ></a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <div class="sm2-bar-ui full-width"></div></li>
+                <li><a href="#who">What Is Sadpass</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#Artist">Artist</a></li>
+                <li><a href="#Colab">Colab</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
     </nav>  
 
     <div id="who">
@@ -410,6 +517,7 @@ soundManager.setup({
     <script src="js/bootstrap.min.js"></script>
     <script src="js/sticky-nav.js"></script>
     <script src="js/jquery.stellar.js"></script>
+    <script src="js/MusicPlaya.js"></script>    
     <script src="js/soundmanager2-nodebug-jsmin.js"></script>
     <script>
       $.stellar();
