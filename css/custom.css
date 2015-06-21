@@ -4,6 +4,9 @@ audio {
 	position: center;
 	margin-top: 10px;
 }
+i.fa {
+	color: black;
+}
 
 body {
   padding-top: 0px;
@@ -88,10 +91,33 @@ table {
 	margin: 0px;
 }
 
+.deadspace {
+	height: 600px;
+}
+
+/* Arrow */
+a.ScrollTo{
+	left:50%;
+	margin-left:-50px;
+	top:100%;
+	margin-top:-200px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	border:2px solid #cc1313;
+	font-size:80px;
+	color:#fff;
+	text-align:center;
+	line-height:;
+	position:absolute;
+}
+
+/* End Arrow */
+
 .jumbotron {
 	text-align: center;
 	background-attachment: fixed;
-	background-image: url('../images/Sadpass/title.jpg');
+	background-image: url('../images/Sadpass/titlecopy.jpg');
 	background-repeat: no-repeat;
     background-size: 100%;
 	margin-bottom: 0px;
