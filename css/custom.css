@@ -1,4 +1,10 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+audio {
+	width: 800px;
+	position: center;
+	margin-top: 10px;
+}
+
 body {
   padding-top: 0px;
 }
