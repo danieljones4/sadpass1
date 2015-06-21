@@ -236,7 +236,7 @@ img.bg {
 
 .boxes {
     position: relative;
-    height:250px;
+    height:210px;
     overflow:hidden;
 }
 
@@ -245,6 +245,18 @@ img.bg {
     width:100%;
     height:100%;
 }
+
+.fly {
+  opacity: 0;
+  transition: all 1500ms ease-in-out;
+  transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
+}
+ 
+.show-block {
+  opacity: 1;
+  transform: translateY(0) scale(1) translate3d(0, 0, 0);
+}
+
 
 
 /* Responsive Styling */
