@@ -7,14 +7,33 @@ audio {
 
 .audio {
     position: absolute;
-    width: 90%;
+    width: 100%;
     left: 0;
     text-align: center;
     margin: auto;
 }
 
 .audiopad {
-	padding-left: 13px;
+	padding-left: 0px;
+}
+
+.bounceInUp {
+  animation-duration: .8s;
+  animation-name: bounceUp;
+  animation-iteration-count: 1000;
+  -webkit-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@keyframes bounceUp {
+  from {
+    padding-top: 10px; 
+  }
+
+  to {
+    padding-top: -10px;
+  }
 }
 
 i.fa {
@@ -129,11 +148,12 @@ a.ScrollTo{
 	text-align: center;
 	background-attachment: fixed;
 	background-image: url('../images/Sadpass/titlecopy.jpg');
-	background-repeat: no-repeat;
-    background-size: 100%;
-	margin-bottom: 0px;
-	top: 0;
-  	border-width: 0 0 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding: 50% 0 0 0;
+    margin: 0px;
 }
 
  .parallax-container {
