@@ -4,6 +4,7 @@ audio {
 	position: center;
 	margin-top: 10px;
 }
+<<<<<<< HEAD
 
 .audio {
     position: absolute;
@@ -11,6 +12,25 @@ audio {
     left: 0;
     text-align: center;
     margin: auto;
+=======
+.bounceInUp {
+  animation-duration: .8s;
+  animation-name: bounceUp;
+  animation-iteration-count: 1000;
+  -webkit-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+	@keyframes bounceUp {
+	  from {
+	    padding-top: 10px; 
+	  }
+
+	  to {
+	    padding-top: -10px;
+	  	}
+>>>>>>> gh-pages
 }
 
 i.fa {
@@ -110,7 +130,7 @@ a.ScrollTo{
 	left:50%;
 	margin-left:-50px;
 	top:100%;
-	margin-top:-200px;
+	margin-top:-150px;
 	width:100px;
 	height:100px;
 	border-radius:50%;
