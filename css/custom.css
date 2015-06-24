@@ -13,6 +13,10 @@ audio {
     margin: auto;
 }
 
+.audiopad {
+	padding-left: 13px;
+}
+
 i.fa {
 	color: black;
 }
@@ -60,10 +64,6 @@ table {
 #threepiece {
 }
 
-.deadspace {
-	padding-top: 38%;
-}
-
 .navbar {
 	border-width: 0 0 1px;
 	right: 0;
@@ -103,6 +103,7 @@ table {
 
 .deadspace {
 	height: 600px;
+	padding-top: 38%;
 }
 
 /* Arrow */

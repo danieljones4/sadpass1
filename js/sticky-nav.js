@@ -12,8 +12,10 @@ jQuery(document).ready(function() {
 
 		if (scrollPos >= navOffset)	{
 			jQuery("nav").addClass("navbar-fixed-top");
+			jQuery("audio").addClass("audiopad");		
 		} else {
 			jQuery("nav").removeClass("navbar-fixed-top");
+			jQuery("audio").removeClass("audiopad");
 		}
 
 	});
