@@ -42,69 +42,6 @@
     }
     </script>
 
-    <script>
-      audiojs.events.ready(function() {
-        var as = audiojs.createAll();
-      });
-    </script>
-
-        <script>
-      audiojs.events.ready(function() {
-        var audios = document.getElementsByTagName('audio');
-
-        var a1 = audiojs.create(audios[0], {
-          css: false,
-          createPlayer: {
-            markup: false,
-            playPauseClass: 'play-pauseZ',
-            scrubberClass: 'scrubberZ',
-            progressClass: 'progressZ',
-            loaderClass: 'loadedZ',
-            timeClass: 'timeZ',
-            durationClass: 'durationZ',
-            playedClass: 'playedZ',
-            errorMessageClass: 'error-messageZ',
-            playingClass: 'playingZ',
-            loadingClass: 'loadingZ',
-            errorClass: 'errorZ'
-          }
-        });
-
-        var a2 = audiojs.create(audios[1]);
-/*
-        var a3 = audiojs.create(audios[2], {
-          createPlayer: {
-            markup: '\
-              <div class="play-pause"> \
-                <p class="play"></p> \
-                <p class="pause"></p> \
-                <p class="loading"></p> \
-                <p class="error"></p> \
-              </div> \
-              <div class="scrubber"> \
-                <div class="progress"></div> \
-                <div class="loaded"></div> \
-              </div> \
-              <div class="time"> \
-                <em class="played">00:00</em>/<strong class="duration">00:00</strong> \
-              </div> \
-              <div class="error-message"></div>',
-            playPauseClass: 'play-pause',
-            scrubberClass: 'scrubber',
-            progressClass: 'progress',
-            loaderClass: 'loaded',
-            timeClass: 'time',
-            durationClass: 'duration',
-            playedClass: 'played',
-            errorMessageClass: 'error-message',
-            playingClass: 'playing',
-            loadingClass: 'loading',
-            errorClass: 'error'
-          });
-*/
-      });
-    </script>
-
     <!-- This is our Google Arvo font and Font-Awesome -->
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
@@ -141,12 +78,7 @@
       </div>
     </div>
 
-<<<<<<< Updated upstream
     <nav>
-=======
-    <nav>   
-      <audio preload="auto" src="http://kolber.github.io/audiojs/demos/mp3/juicy.mp3"></audio>
->>>>>>> Stashed changes
       <div class="navbar navbar-inverse" role="navigation">
         <div class="flush">
           <div class="navbar-header">
@@ -429,11 +361,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/sticky-nav.js"></script>
     <script src="js/jquery.stellar.js"></script>
-<<<<<<< Updated upstream
     <script src="js/flyin.js"></script>
-=======
-    <script src="audio/audio.min.js"></script>
->>>>>>> Stashed changes
     <script>
       $.stellar();
 
