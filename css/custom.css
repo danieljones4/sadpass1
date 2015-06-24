@@ -1,9 +1,18 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 audio {
-	width: 800px;
+	width: 100%;
 	position: center;
 	margin-top: 10px;
 }
+
+.audio {
+    position: absolute;
+    width: 90%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
 i.fa {
 	color: black;
 }
@@ -84,6 +93,7 @@ table {
 .navbar-brand {
 	padding: 10px;
 }
+
 
 .flush {
 	border: 0px;
