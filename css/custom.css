@@ -18,22 +18,22 @@ audio {
 }
 
 .bounceInUp {
-  animation-duration: .8s;
-  animation-name: bounceUp;
-  animation-iteration-count: 1000;
-  -webkit-animation-direction: alternate;
-  -o-animation-direction: alternate;
-  animation-direction: alternate;
+  animation-duration: .8s;
+  animation-name: bounceUp;
+  animation-iteration-count: 1000;
+  -webkit-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
-@keyframes bounceUp {
-  from {
-    padding-top: 10px; 
-  }
+	@keyframes bounceUp {
+	  from {
+	    padding-top: 10px; 
+	  }
 
-  to {
-    padding-top: -10px;
-  }
+	  to {
+	    padding-top: -10px;
+	  	}
 }
 
 i.fa {
