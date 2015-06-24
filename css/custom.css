@@ -98,10 +98,13 @@ table {
 	min-height: 50px;
 }
 
+.collapse {
+	padding-right: 0px;
+}
+
 .navbar-fixed-top {
 	width: 100%;
 	left: 0;
-	padding-right: 15px;
 	background-color: #222;
 }
 

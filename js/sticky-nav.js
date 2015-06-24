@@ -5,17 +5,17 @@ jQuery(document).ready(function() {
 	jQuery("nav").wrap('<div class="nav-placeholder"></div>');
 	//jQuery(".nav-placeholder").height(jQuery("nav").outerHeight());
 
-	//jQuery("nav").wrapInner('<div class="nav-inner"></div>')
+	jQuery("nav").wrapInner('<div class="nav-inner"></div>')
 
 	jQuery(window).scroll(function()  {
 		var scrollPos = jQuery(window).scrollTop();
 
 		if (scrollPos >= navOffset)	{
 			jQuery("nav").addClass("navbar-fixed-top");
-			jQuery("audio").addClass("audiopad");		
+			//jQuery(".collapse").addClass("nav-col-pad");		
 		} else {
 			jQuery("nav").removeClass("navbar-fixed-top");
-			jQuery("audio").removeClass("audiopad");
+			//jQuery(".collapse").removeClass("nav-col-pad");
 		}
 
 	});
