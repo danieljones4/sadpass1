@@ -131,21 +131,19 @@ table {
 
 /* Arrow */
 a.ScrollTo{
-	margin-left: -50px;
+	left:50%;
+	margin-left:-50px;
+	top:100%;
+	margin-top:-200px;
 	width:100px;
 	height:100px;
 	border-radius:50%;
 	border:2px solid #cc1313;
 	font-size:80px;
 	color:#fff;
+	text-align:center;
 	line-height:;
 	position:absolute;
-}
-
-.bouncy {
-	margin: -120px auto 0px auto;
-	height: 100px;
-	width: 100px;
 }
 
 /* End Arrow */
@@ -235,15 +233,9 @@ img.bg {
 }
 
 .homepage p {
-	font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-size: 21px;
 	font-weight: 300;
 	color: #686868;
-}
-
-.homepage strong {
-	font-weight: 700;
-	color: #A19F9F;
 }
 
 .homepage a {
