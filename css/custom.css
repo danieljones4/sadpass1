@@ -126,15 +126,12 @@ table {
 
 .deadspace {
 	height: 600px;
-	padding-top: 38%;
 }
 
 /* Arrow */
 a.ScrollTo{
-	left:50%;
 	margin-left:-50px;
-	top:100%;
-	margin-top:-200px;
+	margin-top:-120px;
 	width:100px;
 	height:100px;
 	border-radius:50%;
