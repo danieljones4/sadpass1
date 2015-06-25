@@ -1,7 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 audio {
 	width: 100%;
-	position: center;
 	margin-top: 10px;
 }
 
@@ -124,8 +123,39 @@ table {
 	margin: 0px;
 }
 
+/* Marquee - Song title in music player */
+
+.marqueeh {
+	width: 100%;
+	position: absolute;
+}
+
+.mar-outer {
+	margin: 0px auto;
+	width: 800px;	
+}
+
+.marquee {
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0px 180px 0px 50px;
+  	text-align: center;
+	color: #686868;
+}
+
+.mar{
+	animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0%   { transform:translateX(470px);}
+    100% { transform:translateX(-450px); }
+}
+
+/* End Marquee */
+
 .deadspace {
-	height: 600px;
+	height: 0px;
 }
 
 /* Arrow */
@@ -230,10 +260,17 @@ img.bg {
 }
 
 .homepage p {
+	font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-size: 21px;
 	font-weight: 300;
 	color: #686868;
 }
+
+.homepage strong {
+	font-weight: 700;
+	color: #A19F9F;
+}
+
 
 .homepage a {
 	color: #e74c3c;
@@ -360,6 +397,7 @@ img.bg {
 
 	.navbar-fixed-top {
 		padding-right: 0px;
+	}
 
 	.jumbotron h1 {
 		font-size: 24px;
