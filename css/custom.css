@@ -214,12 +214,12 @@ img.bg {
 
 .homepage {
 	text-align: center;
-	padding-bottom: 30px;
-	padding-top: 5px;
+	padding-bottom: 70px;
+	padding-top: 20px;
 }
 
 .homepage h2, .homepage h3 {
-	color: #686868;
+	color: #F01D0B;
 	font-family: 'Arvo', courier, serif;
 	text-transform: uppercase;
 }
@@ -252,6 +252,11 @@ img.bg {
 	border-top: 1px solid #686868;
 	width: 300px;
 	margin-top: 15px;
+}
+
+.credits h2 {
+	text-shadow: 4px 4px 15px #F0EAEA;
+	font-size: 48px;
 }
 
 .boxes {
