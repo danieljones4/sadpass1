@@ -305,6 +305,12 @@ img.bg {
 	padding: 0
 }
 
+.boxtxt {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
 .credits p {
 	font-size: 16px;
 	font-weight: 700;
