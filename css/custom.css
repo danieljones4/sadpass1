@@ -328,7 +328,7 @@ img.bg {
     position: absolute;
     color: white;
     background-image: url("../images/texture.jpg");
-    background-: cover;
+    background-size: cover;
 }
 
 .foreground {
