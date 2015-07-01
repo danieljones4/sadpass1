@@ -302,13 +302,16 @@ img.bg {
 	opacity: 0.7;
 	border-radius: 15px;
 	border: -15px;
-	padding: 0
+	padding: 0;
+    position: relative;
+    overflow:hidden;
 }
 
 .boxtxt {
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
+  	opacity: 1;
 }
 
 .credits p {
@@ -324,6 +327,8 @@ img.bg {
     width: 100%;
     position: absolute;
     color: white;
+    background-image: url("../images/texture.jpg");
+    background-: cover;
 }
 
 .foreground {
@@ -341,10 +346,8 @@ img.bg {
 	color: black;
 }
 
-.boxes {
-    position: relative;
-    height:210px;
-    overflow:hidden;
+.boxes:hover {
+	opacity: 1;
 }
 
 .boxes:hover .foreground {
