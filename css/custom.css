@@ -320,7 +320,7 @@ img.bg {
 
 .credits p {
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 300;
 	color: white;
 }
 
@@ -355,11 +355,14 @@ img.bg {
 
 .foreground p {
 	color: white;
+	text-align: left;
+	padding-left: 15px;
 }
 
 .foreground strong {
 	color: #e74c3c;
-	text-shadow: 2px 2px 10px black;
+	text-shadow: 0px 0px 8px black;
+	font-weight: 400;
 }
 
 .boxes:hover {
