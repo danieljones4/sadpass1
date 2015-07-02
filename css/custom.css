@@ -357,6 +357,11 @@ img.bg {
 	color: white;
 }
 
+.foreground strong {
+	color: #e74c3c;
+	text-shadow: 2px 2px 10px black;
+}
+
 .boxes:hover {
 	opacity: 1;
 }
