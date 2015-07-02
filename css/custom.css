@@ -335,26 +335,39 @@ img.bg {
     background-size: cover;
 }
 
+.Background h1 {
+	top: 0;
+	opacity: 1;
+    -webkit-transition: opacity 1s, transform 1s;
+    transition: opacity 1s, transform 1s;
+}
+
 .foreground {
     position: absolute;
-    bottom: -100%;
+    bottom: -20%;
     height : 100%;
     width : 100%;
-    background: radial-gradient(#cc1313, #888888);
     border-radius: 10px;
-    -webkit-transition: bottom 1s;
-    transition: bottom 1s;
+    opacity: 0;
+    -webkit-transition: bottom 1s, opacity 1s;
+    transition: bottom 1s, opacity 1s;
 }
 
 .foreground p {
-	color: black;
+	color: white;
 }
 
 .boxes:hover {
 	opacity: 1;
 }
 
+.boxes:hover .Background h1 {
+	opacity: 0;
+	transform: translateY(-50px) scale(1.2);
+}
+
 .boxes:hover .foreground {
+	opacity: 1;
     bottom: 0;
     width:100%;
     height:100%;
