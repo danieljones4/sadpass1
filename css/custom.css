@@ -293,6 +293,11 @@ img.bg {
 	font-size: 48px;
 }
 
+.fginner {
+	height: 100%;
+	width: 100%;
+}
+
 .boxes {
 	box-shadow: 5px 5px 20px #888888;
 	background-color: black;
@@ -311,7 +316,6 @@ img.bg {
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
-  	opacity: 1;
 }
 
 .credits p {
