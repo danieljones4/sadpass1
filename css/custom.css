@@ -305,6 +305,10 @@ img.bg {
 	font-family: 'Lobster', cursive;
 	text-transform: uppercase;
 	-webkit-text-stroke: 2px black;
+	text-shadow:
+    4px 4px 0px #000,
+    1px -1px 10px #000,
+    1px 1px 0px #000;
 }
 .wood {
 	background-image: url("../images/Sadpass/wood.jpg");
