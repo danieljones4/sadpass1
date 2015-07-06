@@ -3,6 +3,17 @@ audio {
 	width: 100%;
 	margin-top: 10px;
 }
+.twitter-timeline {
+	position: center;
+}
+
+.album{
+	text-align: center;
+}
+.album img{
+	display:inline-block;
+    margin:0 5px
+}
 
 .audio {
     position: absolute;
@@ -247,7 +258,7 @@ img.bg {
 
 .homepage h2, .homepage h3 {
 	color: #F01D0B;
-	font-family: 'Arvo', courier, serif;
+	font-family: 'Lobster', cursive;
 	text-transform: uppercase;
 }
 
@@ -291,7 +302,19 @@ img.bg {
 .credits h2 {
 	text-shadow: 4px 4px 15px #F0EAEA;
 	font-size: 48px;
+	font-family: 'Lobster', cursive;
+	text-transform: uppercase;
+	-webkit-text-stroke: 2px black;
 }
+.wood {
+	background-image: url("../images/Sadpass/wood.jpg");
+	background-size: cover;
+	background-position: fixed;
+}
+#socmedia {
+	padding: 25px;
+}
+
 
 .fginner {
 	height: 100%;
