@@ -446,6 +446,12 @@ img.bg {
 
 @media (max-width: 991px) { 
 
+	a.ScrollTo {
+		width:80px;
+		height:80px;
+		font-size:60px;
+	}
+
 	.jumbotron h1 {
 		font-size: 44px;
 	}
@@ -462,6 +468,12 @@ img.bg {
 }
 
 @media (max-width: 767px) { 
+
+	a.ScrollTo {
+		width:60px;
+		height:60px;
+		font-size:40px;
+	}
 
 	.navbar-fixed-top {
 		padding-right: 0px;
@@ -489,5 +501,4 @@ img.bg {
 	}
 
 }
-
 
