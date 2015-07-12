@@ -135,37 +135,6 @@ table {
 	margin: 0px;
 }
 
-/* Marquee - Song title in music player */
-
-.marqueeh {
-	width: 100%;
-	position: absolute;
-}
-
-.mar-outer {
-	margin: 0px auto;
-	width: 800px;	
-}
-
-.marquee {
-	overflow: hidden;
-	white-space: nowrap;
-	margin: 0px 180px 0px 50px;
-  	text-align: center;
-	color: #686868;
-}
-
-.mar{
-	animation: marquee 10s linear infinite;
-}
-
-@keyframes marquee {
-    0%   { transform:translateX(470px);}
-    100% { transform:translateX(-450px); }
-}
-
-/* End Marquee */
-
 .deadspace {
 	height: 0px;
 }
@@ -190,7 +159,7 @@ a.ScrollTo{
 .jumbotron {
 	text-align: center;
 	background-attachment: fixed;
-	background-image: url('../images/Sadpass/titlecopy.jpg');
+	background-image: url('../images/Sadpass/titlecopy.jpg') #000 no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -201,6 +170,7 @@ a.ScrollTo{
 
  .parallax-container {
       padding-bottom: ;
+      background-color: #000;
 
     }
 
