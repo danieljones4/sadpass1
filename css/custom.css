@@ -3,6 +3,7 @@
 
 
 .jumbotron {
+	background-color: black;
 	text-align: center;
 	background-attachment: fixed;
 	background-image: url('../images/Sadpass/titlecopy.jpg');
@@ -203,12 +204,12 @@ img.bg {
   left: 0;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.bg {
+/* @media screen and (max-width: 1024px) { /* Specific to this particular image */
+/*  img.bg {
     left: 50%;
     margin-left: 50%;   /* 50% */
   }
-}
+} 
 /* end copy pasta */
 
 .jumbotron h1 {
