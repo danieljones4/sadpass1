@@ -263,7 +263,7 @@ img.bg {
 	color: #e74c3c;
 }
 
-.homepage a:hover {
+.homepage a:hover a:focus{
 	color: #e74c3c;
 	text-decoration: none;
 	opacity: .8;
