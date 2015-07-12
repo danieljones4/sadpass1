@@ -159,7 +159,7 @@ a.ScrollTo{
 .jumbotron {
 	text-align: center;
 	background-attachment: fixed;
-	background-image: url('../images/Sadpass/titlecopy.jpg') #000 no-repeat;
+	background-image: url('../images/Sadpass/titlecopy.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
