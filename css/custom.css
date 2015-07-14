@@ -365,16 +365,16 @@ img.bg {
 	font-weight: 400;
 }
 
-.boxes:hover {
+.noTouch .boxes:hover {
 	opacity: 1;
 }
 
-.boxes:hover .Background h1 {
+.noTouch .boxes:hover .Background h1 {
 	opacity: 0;
 	transform: translateY(-50px) scale(1.2);
 }
 
-.boxes:hover .foreground {
+.noTouch .boxes:hover .foreground {
 	opacity: 1;
     bottom: 0;
     width:100%;
