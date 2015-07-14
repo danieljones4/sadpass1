@@ -1,10 +1,18 @@
 Tasks
 \
-1. Make deadspace button responsive
+1. Make deadspace button responsive/takeout button on 	
+	mobile.
+	-Button pos wrong on IE?
+	-Button animation not working on safari
+	-Deadspace image size on firefox?
 
 2. Finish Social Media section
-	-Add in album cover and links to purchase on right collumn 
-	-Style
+	-make social media buttons work. 
 
 3. Fix credits boxes to work on mobile. 
+	-or takeout boxes on mobile and use plain text?
 
+4. Remove parallax on mobile.
+	-Fix parallax on IE?
+
+5. Footer
