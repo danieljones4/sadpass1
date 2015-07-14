@@ -9,6 +9,7 @@
 
 ;(function($, window, document, undefined) {
 
+
 	var pluginName = 'stellar',
 		defaults = {
 			scrollProperty: 'scroll',
