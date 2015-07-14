@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 	if (!("ontouchstart" in document.documentElement)) {
 		document.documentElement.className += "noTouch";
 	}	
-	if (!$('html').hasClass('no-touch')){
+	if (!$('html').hasClass('noTouch')){
 
 	}
 	else {
