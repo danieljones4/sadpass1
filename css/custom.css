@@ -34,7 +34,7 @@ audio {
 .album img{
 	display:inline-block;
     margin:0 5px;
-    width: 80%;
+    width: 100%;
 }
 
 .audio {
@@ -403,9 +403,6 @@ img.bg {
 	background-position: fixed;
 }
 
-#wood img {
-	width: 70%;
-}
 
 #wood h1 {
 	margin-top: 0px;
