@@ -10,9 +10,12 @@ Tasks
 
 4. Remove parallax on mobile.
 	-Fix parallax on IE?
+	-Make parallax backgrounds fixed for mobile
 
 5. Footer
 
 6. Change out the header fonts
 
 7. Add in video
+
+8. Fix navbar on mobile
