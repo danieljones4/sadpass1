@@ -5,13 +5,15 @@ jQuery(document).ready(function() {
 		document.documentElement.className += "noTouch";
 	}	
 	if (!$('html').hasClass('noTouch')){
+		if (!$(".boxes").hasClass("toggle")){
+			$(".boxes").click(function(){
+				$(".boxes, .row, .Background, .foreground").not(this).removeClass("toggle");
+	    		$(this).toggleClass("toggle");
+			});
+		}
+	}
 
-	}
-	else {
-		$(".boxes").click(function(){
-    		$(".boxes, .Background, .foreground").toggleClass("toggle");
-		});
-	}
+
 
 });
 
