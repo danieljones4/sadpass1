@@ -429,6 +429,15 @@ img.bg {
 	text-align: center;
 }
 
+.youtube {
+	background-color: #B2B2B2;
+	text-align: center;
+}
+
+.youtube h1 {
+	margin: 0;
+}
+
 
 
 /* Responsive Styling */
