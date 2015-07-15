@@ -289,7 +289,7 @@ img.bg {
 }
 
 #socmedia {
-	padding: 25px;
+	padding: 40px;
 }
 
 
@@ -401,8 +401,6 @@ img.bg {
 	background-image: url("../images/Sadpass/wood.jpg");
 	background-size: cover;
 	background-position: fixed;
-	padding-top: 40px;
-
 }
 
 
@@ -434,15 +432,11 @@ img.bg {
 .youtube {
 	background-color: #B2B2B2;
 	text-align: center;
-	padding: 50px;
 }
 
-.youtube h1 {
-	
-}
 
 #videos {
-	padding-top: 40px;
+	padding: 40px;
 }
 
 
