@@ -17,8 +17,6 @@ jQuery(document).ready(function() {
 	});
 	var scrollPos = $('body > .container').find($(this).attr('href')).offset().top - (offsetHeight - 1);
 
-	//fixed positioning for mobile
-	var hgt = $(window).height();
-    $(".imgdiv").css("height", hgt)
+
 });
 
