@@ -414,6 +414,13 @@ img.bg {
   transition: all 1500ms ease-in-out;
   transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
 }
+
+@media (max-width: 767px) {
+
+	.fly {
+		transform: translateY(100px) scale(1) translate3d(0, 0, 0);
+	}
+}
  
 .show-block {
   opacity: 1;
@@ -518,6 +525,7 @@ img.bg {
 	footer img {
 		width: 80%;
 	}
+
 
 }
 
