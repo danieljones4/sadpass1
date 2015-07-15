@@ -12,7 +12,10 @@ jQuery(document).ready(function() {
 			});
 		}
 	}
-
+	$('body').scrollspy({
+   		offset: 51
+	});
+	var scrollPos = $('body > .container').find($(this).attr('href')).offset().top - (offsetHeight - 1);
 
 
 });
