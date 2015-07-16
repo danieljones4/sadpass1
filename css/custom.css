@@ -491,7 +491,7 @@ img.bg {
 
 	.imgdiv {
 		background-image: url('../images/Sadpass/imgdiv-mob.jpg');
-		background-size: cover;
+		background-size: contain;
 		background-attachment: fixed;
 }
 
