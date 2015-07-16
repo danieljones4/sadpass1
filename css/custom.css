@@ -1,6 +1,9 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 /* Music player */
+body {
+	
+}
 .player
 {
    display: inline-block;
@@ -492,8 +495,7 @@ img.bg {
 }
 
 .frame {
-	margin: 40px auto;
-	width: 400px;
+	margin: 40px auto 0 auto;
 }
 
 
