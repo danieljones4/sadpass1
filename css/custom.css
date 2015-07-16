@@ -441,7 +441,8 @@ img.bg {
 }
 
 .frame {
-	margin: 40px 0px;
+	margin: 40px auto;
+	width: 400px;
 }
 
 
@@ -455,7 +456,7 @@ img.bg {
 }
 
 #videos p {
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 #videos img {
