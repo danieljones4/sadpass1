@@ -22,8 +22,10 @@
 
 audio {
 	width: 100%;
+	max-width: 800px;
 	margin-top: 10px;
 }
+
 .twitter-timeline {
 	position: center;
 }
@@ -438,10 +440,14 @@ img.bg {
 	text-align: center;
 }
 
+.frame {
+	margin: 40px 0px;
+}
+
 
 #videos {
 	background-color: #B2B2B2;
-	padding: 50px 0 0 0;
+	padding: 30px 0 0 0;
 }
 
 
@@ -482,6 +488,12 @@ img.bg {
 }
 
 @media (max-width: 767px) { 
+
+	.imgdiv {
+		background-image: url('../images/Sadpass/imgdiv-mob.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+}
 
 	.youtube iframe {
 		width: 100%;
