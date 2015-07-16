@@ -331,7 +331,7 @@ img.bg {
     width: 100%;
     position: absolute;
     color: white;
-    background-image: url("../images/texture.jpg");
+    background-image: url("../images/texture2.jpg");
     background-size: cover;
 }
 
@@ -446,11 +446,21 @@ img.bg {
 
 
 #videos {
-	background-color: #B2B2B2;
+	background-color: #000;
 	padding: 30px 0 0 0;
 }
 
+#videos .container {
+	padding-bottom: 0px;
+}
 
+#videos p {
+	padding-top: 50px;
+}
+
+#videos img {
+	padding-top: 0px;
+}
 
 /* Responsive Styling */
 
