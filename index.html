@@ -28,6 +28,10 @@
     <!-- This is our Google Arvo font and Font-Awesome -->
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- Load Music Player -->
+    <script type="text/javascript" src="Soundmanager/script/soundmanager2.js">   
+    </script>
     
     <!--GOOGLE LOBSTER FONT -->
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -57,12 +61,14 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="parallax-container">
       <div id="home" class="jumbotron" data-stellar-background-ratio="0.5">
-        <div class="container">
           <div class="deadspace">
             <h1>Hello Ladies</h1>
+               <button class="player__play button button--large">  
+                  <i class="fa fa-play fa-4x play"> 
+                  </i>
+               </button>
             <a class="ScrollTo animated bounceInUp" href="#who"><i class="fa fa-angle-down arrow bounce"></i></a>
           </div>      
-        </div>
       </div>
     </div>
 
@@ -363,6 +369,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
     <script src="js/sticky-nav.js"></script>
     <script src="js/jquery.stellar.js"></script>
     <script src="js/flyin.js"></script>
