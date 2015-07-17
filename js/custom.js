@@ -14,6 +14,12 @@ jQuery(document).ready(function() {
             scaleBannerVideoSize('.video-container .filter');
             scaleBannerVideoSize('.video-container video');
         });
+    } else {
+        $(window).on('load', function() {
+            scaleVideoContainer();
+            scaleBannerVideoSize('.video-container .poster img');
+            scaleBannerVideoSize('.video-container .filter');
+            scaleBannerVideoSize('.video-container video');
     }
 
 
