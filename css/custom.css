@@ -357,10 +357,14 @@ img.bg {
 	font-size: 36px;
 }
 
+.homepage .col-md-6, .homepage .col-md-7, .homepage .col-md-5 {
+	padding-top: 40px;
+}
+
 .homepage {
 	text-align: center;
 	padding-bottom: 40px;
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
 .homepage h2, .homepage h3 {
@@ -684,6 +688,10 @@ img.bg {
 
 	.homepage p {
 		font-size: 18px;
+	}
+
+	.social {
+	  width: 100%;
 	}
 
 	footer img {
