@@ -54,6 +54,19 @@ function scaleBannerVideoSize(element){
 
         $(this).width(windowWidth);
 
+        if (windowWidth >= 1000) {
+            if (windowHeight > windowWidth * 0.5625) {
+                videoHeight = windowHeight;
+                videoWidth = videoHeight / videoAspectRatio;
+                $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+
+                $(this).width(videoWidth).height(videoHeight);
+            }   else {
+
+                $(this).css({'margin-top' : 0, 'margin-left' : 0, 'width' : windowWidth, 'height' : windowWidth * 0.5625});
+            }
+        }
+
         if(windowWidth < 1000){
             videoHeight = windowHeight;
             videoWidth = videoHeight / videoAspectRatio;
