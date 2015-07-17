@@ -8,7 +8,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
 
    // animate
    $('html, body').animate({
-       scrollTop: $(hash).offset().top -50
+       scrollTop: $(hash).offset().top -49
      }, 1500, function(){
 
        // when done, add hash to url

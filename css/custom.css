@@ -115,7 +115,7 @@ audio {
 .social {
 	width: 520px;
 	margin: auto;
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 .album{
@@ -197,7 +197,7 @@ table {
 #who {
 	background-color: black;
 	text-align: left;
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
 #who p {
@@ -359,11 +359,12 @@ img.bg {
 
 .homepage {
 	text-align: center;
-	padding-bottom: 0px;
-	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-top: 40px;
 }
 
 .homepage h2, .homepage h3 {
+	margin-top: 0px;
 	color: #cc1313;
 	font-family: 'Chango', cursive;
 	text-transform: uppercase;
@@ -418,7 +419,7 @@ img.bg {
 }
 
 #socmedia {
-	padding: 40px 0px;
+	padding: 0px 0px;
 }
 
 
@@ -570,7 +571,7 @@ img.bg {
 }
 
 .frame {
-	margin: 40px auto 0 auto;
+	margin: 0px auto 0 auto;
 }
 
 
