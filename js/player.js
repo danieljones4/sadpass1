@@ -10,7 +10,7 @@ soundManager.setup({
    onready: function() {
       audio = soundManager.createSound({
          id: 'audio',
-         url: 'Music/MoveOn.mp3',
+         url: 'Music/FloatAway.mp3',
 
          onfinish: function() {
             $('.play').removeClass('fa-pause');
