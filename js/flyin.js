@@ -11,7 +11,7 @@ function recheck() {
     
     $('.fly').each(function(){
       var block = $(this);
-      var block_top = block.offset().top;
+      var block_top = block.offset().top -40;
       var block_height = block.height();
       
       if ( block_top < view_port_e ) {

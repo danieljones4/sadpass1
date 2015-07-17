@@ -1,23 +1,28 @@
 <html>   
 	<head>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<link href="css/player.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
       <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-      <script type="text/javascript" src="Soundmanager/script/soundmanager2.js">   
-      </script>
+
 
 	</head>
 <body>
-   <button class="player__play button button--large">  
-      <i class="fa fa-play fa-4x"> 
-      </i>
-   </button>
-   <div id="progressBar">
-      <div class="barInner">
-      </div>
-   </div>
+   <div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="crosswalk/MP$/The-Crosswalk.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="crosswalk/WEBM/The-Crosswalk.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="crosswalk/Snapshots/The-Crosswalk.jpg" alt="">
+        </div>
+    </div>
+  </div>
+
 
 </div>
-<script src="js/player.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
