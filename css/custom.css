@@ -12,12 +12,12 @@
     position: relative;
 }
 .no-video .video-container video,
-.touch .video-container video {
-    display: none;
+.noTouch .video-container video {
+    display: block !important;
 }
 .no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
+.noTouch .video-container .poster {
+    display: none;
 }
 .video-container {
     position: relative;
@@ -29,7 +29,6 @@
     background: #000;
 }
 .video-container .poster img {
-    width: 100%;
     bottom: 0;
     position: absolute;
 }
