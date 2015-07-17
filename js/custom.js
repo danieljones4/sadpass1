@@ -1,4 +1,7 @@
 jQuery(document).ready(function() {
+    if (!("ontouchstart" in document.documentElement)) {
+        document.documentElement.className += "noTouch";
+    } 
 //jQuery is required to run this code
 
     scaleVideoContainer();
@@ -7,13 +10,13 @@ jQuery(document).ready(function() {
     initBannerVideoSize('.video-container .filter');
     initBannerVideoSize('.video-container video');
 
-    $(window).on('resize', function() {
-        scaleVideoContainer();
-        scaleBannerVideoSize('.video-container .poster img');
-        scaleBannerVideoSize('.video-container .filter');
-        scaleBannerVideoSize('.video-container video');
-    });
-
+        $(window).on('resize', function() {
+            scaleVideoContainer();
+            scaleBannerVideoSize('.video-container .poster img');
+            scaleBannerVideoSize('.video-container .filter');
+            scaleBannerVideoSize('.video-container video');
+        });
+    
 
 function scaleVideoContainer() {
 
@@ -63,10 +66,7 @@ function scaleBannerVideoSize(element){
 };
 
     jQuery(".foreground").wrapInner('<div class="fginner"></div>');
-    jQuery(".fginner").wrapInner('<div class="boxtxt"></div>');
-    if (!("ontouchstart" in document.documentElement)) {
-        document.documentElement.className += "noTouch";
-    }   
+    jQuery(".fginner").wrapInner('<div class="boxtxt"></div>');  
     if (!$('html').hasClass('noTouch')){
         if (!$(".boxes").hasClass("toggle")){
             $(".boxes").click(function(){
