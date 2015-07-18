@@ -11,6 +11,11 @@
     border-left: none;
     position: relative;
 }
+
+.video-container video {
+	display: none;
+}
+
 .no-video .video-container video,
 .noTouch .video-container video {
     display: block !important;
