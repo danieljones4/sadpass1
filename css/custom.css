@@ -423,6 +423,7 @@ img.bg {
 .credits h2 {
 	font-size: 72px;
 	text-transform: uppercase;
+	-webkit-text-stroke: 1px black;
 	text-shadow: 4px 4px 7px #000;
 	padding-top: 40px;
 	font-weight: 500;
