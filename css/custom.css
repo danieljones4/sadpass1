@@ -620,22 +620,9 @@ footer .links {
 	padding-top: 10px;
 }
 
-.copywrite {
-
+.copywrite, .footeremail{
+	line-height: 4;
 }
-
-.email {
-
-}
-
-#formcontainer {
-	text-align: center;
-}
-
-#mce-EMAIL, #mc-embedded-subscribe {
-	display: inline;
-}
-
 
 /* Responsive Styling */
 
