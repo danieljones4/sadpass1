@@ -191,7 +191,6 @@ footer {
 	background-color: #383838;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #222;
 }
 
 table {
@@ -481,7 +480,7 @@ img.bg {
 .Background h1 {
 	top: 0;
 	opacity: 1;
-    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    -webkit-transition: opacity 1s, transform 1s;
     transition: opacity 1s, transform 1s;
 }
 
@@ -583,7 +582,6 @@ img.bg {
 
 .foot {
 	text-align: center;
-	color: white;
 }
 
 footer .container {
@@ -621,8 +619,14 @@ footer .links {
 	padding-top: 10px;
 }
 
-.copywrite, .footeremail{
-	line-height: 4;
+.copywrite {
+	position: absolute;
+	left: 15px;
+	bottom: 0;
+}
+
+.footerLinks {
+	margin: auto;
 }
 
 /* Responsive Styling */
@@ -692,10 +696,6 @@ footer .links {
 	#get-involved .col-md-4 {
 		padding-top: 20px;
 		padding-bottom: 20px;
-	}
-
-	footer .links{
-		margin-bottom: 15px;
 	}
 
 }
@@ -769,11 +769,6 @@ footer .links {
 
 	footer img {
 		width: 80%;
-	}
-
-	.copywrite {
-		position: relative;
-		left: 0;
 	}
 
 
