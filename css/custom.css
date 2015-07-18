@@ -625,8 +625,8 @@ footer .links {
 	bottom: 0;
 }
 
-.links i{
-	text-align: center;
+.footerLinks {
+	margin: auto;
 }
 
 /* Responsive Styling */
