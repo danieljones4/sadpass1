@@ -625,8 +625,10 @@ footer .links {
 	bottom: 0;
 }
 
-.footerLinks {
-	margin: auto;
+.email {
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 /* Responsive Styling */
