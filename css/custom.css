@@ -621,16 +621,21 @@ footer .links {
 }
 
 .copywrite {
-	position: absolute;
-	left: 15px;
-	bottom: 0;
+
 }
 
 .email {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+
 }
+
+#formcontainer {
+	text-align: center;
+}
+
+#mce-EMAIL, #mc-embedded-subscribe {
+	display: inline;
+}
+
 
 /* Responsive Styling */
 
@@ -699,6 +704,10 @@ footer .links {
 	#get-involved .col-md-4 {
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+
+	footer .links{
+		margin-bottom: 15px;
 	}
 
 }
