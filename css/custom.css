@@ -607,6 +607,14 @@ img.bg {
 	padding-top: 10px;
 }
 
+.copywrite {
+	float: center;
+}
+
+.links i{
+	text-align: center;
+}
+
 /* Responsive Styling */
 
 @media (max-width: 1199px) { 
