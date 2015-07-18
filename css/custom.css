@@ -555,6 +555,8 @@ img.bg {
 /*fly in animation */
 .fly {
   opacity: 0;
+  -webkit-transition: all 1500ms ease-in-out;
+  -webkit-transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
   transition: all 1500ms ease-in-out;
   transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
 }
@@ -562,12 +564,14 @@ img.bg {
 @media (max-width: 767px) {
 
 	.fly {
+		-webkit-transform: translateY(100px) scale(1) translate3d(0, 0, 0);
 		transform: translateY(100px) scale(1) translate3d(0, 0, 0);
 	}
 }
  
 .show-block {
   opacity: 1;
+  -webkit-transform: translateY(0) scale(1) translate3d(0, 0, 0);
   transform: translateY(0) scale(1) translate3d(0, 0, 0);
 }
 /*end fly in */
