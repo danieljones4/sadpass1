@@ -580,6 +580,19 @@ img.bg {
 	padding-bottom: 20px;
 }
 
+.foot {
+	text-align: center;
+}
+
+footer .container {
+	padding-bottom: 0;
+	position: relative;
+}
+
+footer .links {
+	padding-bottom: 0;
+}
+
 .youtube {
 	text-align: center;
 }
@@ -607,7 +620,9 @@ img.bg {
 }
 
 .copywrite {
-	float: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
 
 .links i{
