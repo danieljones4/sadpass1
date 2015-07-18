@@ -114,6 +114,7 @@ audio {
 
 .twitter-timeline {
 	margin: auto;
+	max-height: 500px;
 }
 
 .social {
@@ -127,7 +128,7 @@ audio {
 
 .album img{
 	display:inline-block;
-    margin:0;
+    margin: 0 0 20px 0;
     width: 100%;
 }
 
@@ -420,14 +421,11 @@ img.bg {
 }
 
 .credits h2 {
-	text-shadow: 4px 4px 15px #F0EAEA;
-	font-size: 48px;
+	font-size: 72px;
 	text-transform: uppercase;
-	-webkit-text-stroke: 2px black;
-	text-shadow:
-    4px 4px 0px #000,
-    1px -1px 10px #000,
-    1px 1px 0px #000;
+	text-shadow: 4px 4px 7px #000;
+	padding-top: 40px;
+	font-weight: 500;
 }
 
 #socmedia {
@@ -578,7 +576,7 @@ img.bg {
 
 .links {
 	text-align: center;
-	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .youtube {
