@@ -5,25 +5,11 @@ Tasks
 	-Button animation not working on safari
 	-Deadspace image size on firefox?
 
-	3. Fix credits boxes to work on mobile. 
+3. Fix credits boxes to work on mobile. 
 		-or takeout boxes on mobile and use plain text?
 
-4. Remove parallax on mobile.
-	-Fix parallax on IE?
-	-Make parallax backgrounds fixed for mobile
+4. Remove parallax?
 
 5. Footer
 
-6. Change out the header fonts
-
-<<<<<<< HEAD
-7. Add in video
-
-8. Fix navbar on mobile
-
-fix scrollspy
-=======
-8. Fix navbar on mobile
->>>>>>> origin/gh-pages
-
-10. Ask about the brand logo font maybe unreadable
+6. Figure out the Fonts
