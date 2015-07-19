@@ -119,13 +119,12 @@ audio {
 }
 
 .twitter-timeline {
-	margin: auto;
-	max-height: 500px;
+	max-height: 590px;
 }
 
 .social {
 	margin: auto;
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
 .album{
@@ -134,7 +133,7 @@ audio {
 
 .album img{
 	display:inline-block;
-    margin: 0 0 20px 0;
+    margin: 20px 0 20px 0;
     width: 100%;
 }
 
@@ -211,7 +210,8 @@ table {
 }
 
 #who p {
-		text-align: left;
+	text-align: left;
+	margin-bottom: 15px;
 }
 
 #threepiece {
@@ -557,6 +557,16 @@ img.bg {
 	margin-top: 0px;
 }
 
+#wood .btn {
+	vertical-align: baseline;
+}
+
+#wood .form-control {
+	display: inline-block;
+	width: 200px;
+
+}
+
 /*fly in animation */
 .fly {
   opacity: 0;
@@ -582,7 +592,7 @@ img.bg {
 /*end fly in */
 
 .featurette-image{
-	padding-top: 50px;
+	padding-top: 65px;
 }
 
 .links {
@@ -697,11 +707,11 @@ footer .links {
 
 	.splash h2 {
 		font-size: 68px;
-		margin-bottom: 35%;
+		margin-bottom: 45%;
 	}
 
 	.splash button {
-		margin-bottom: 22%;
+		margin-bottom: 23%;
 	}
 
 	.splash a {
@@ -762,7 +772,7 @@ footer .links {
 
 	.splash h2 {
 		font-size: 40px;
-		margin-bottom: 25%;
+		margin-bottom: 28%;
 	}
 
 	.splash button {
@@ -803,6 +813,9 @@ footer .links {
 }
 
 @media (max-width: 479px) {
+	.twitter-timeline {
+		max-height: 590px;
+	}
 
 	.splash h1 {
 		font-size: 70px;
