@@ -604,17 +604,17 @@ footer .links {
 	padding-bottom: 0;
 }
 
-.foot a:hover {
+.foot a:hover, #wood a:hover {
 	text-decoration: none;
 	opacity: .8;
 }
 
-.foot a:active {
+.foot a:active, #wood a:active {
 	text-decoration: none;
 	opacity: .8;
 }
 
-.foot a {
+.foot a, #wood a {
 	text-decoration: none;
 }
 
