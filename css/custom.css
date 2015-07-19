@@ -6,6 +6,12 @@
   src: url('../fonts/Building.ttf')  format('truetype');
 }
 
+body {
+	font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	color: #888888;
+}
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -172,7 +178,7 @@ body {
 }
 
 ul.nav, .splash h1 {
-	font-family: 'Arvo', courier, serif;
+	font-family: 'Roboto', courier, serif;
 }
 
 ul.nav {
@@ -191,7 +197,6 @@ footer {
 	background-color: #383838;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #222;
 }
 
 table {
@@ -396,12 +401,12 @@ img.bg {
 	font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-size: 21px;
 	font-weight: 300;
-	color: #686868;
+	color: #888888;
 }
 
 .homepage strong {
 	font-weight: 700;
-	color: #A19F9F;
+	color: #D0D0D0;
 }
 
 
@@ -577,7 +582,7 @@ img.bg {
 /*end fly in */
 
 .featurette-image{
-	padding-top: 20%;
+	padding-top: 50px;
 }
 
 .links {
@@ -597,6 +602,20 @@ footer .container {
 
 footer .links {
 	padding-bottom: 0;
+}
+
+.foot a:hover {
+	text-decoration: none;
+	opacity: .8;
+}
+
+.foot a:active {
+	text-decoration: none;
+	opacity: .8;
+}
+
+.foot a {
+	text-decoration: none;
 }
 
 .youtube {
