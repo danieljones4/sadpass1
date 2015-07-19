@@ -119,7 +119,7 @@ audio {
 }
 
 .twitter-timeline {
-	max-height: 590px;
+	max-height: 500px;
 }
 
 .social {
@@ -563,7 +563,7 @@ img.bg {
 
 #wood .form-control {
 	display: inline-block;
-	width: 200px;
+	width: 215px;
 
 }
 
@@ -814,7 +814,7 @@ footer .links {
 
 @media (max-width: 479px) {
 	.twitter-timeline {
-		max-height: 590px;
+		max-height: 460px;
 	}
 
 	.splash h1 {
