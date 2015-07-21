@@ -161,7 +161,17 @@ audio {
   animation-direction: alternate;
 }
 
-	@keyframes bounceUp {
+@-webkit-keyframes bounceUp {
+	  from {
+	    padding-top: 10px; 
+	  }
+
+	  to {
+	    padding-top: -10px;
+	  	}
+}
+
+@keyframes bounceUp {
 	  from {
 	    padding-top: 10px; 
 	  }
