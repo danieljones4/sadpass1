@@ -312,6 +312,7 @@ a.ScrollTo{
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	margin-bottom: 2%;
+	left: 50%;
 	bottom: 0;
 	width:100px;
 	height:100px;
