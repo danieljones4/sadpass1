@@ -98,7 +98,18 @@ function scaleBannerVideoSize(element){
     $('body').scrollspy({
         offset: 51
     });
-    //var scrollPos = $('body > .container').find($(this).attr('href')).offset().top - (offsetHeight - 1);
+
+    if(navigator.userAgent.match(/Trident\/7\./)) {
+        $('body').on("mousewheel", function () {
+            console.log('hey');
+            event.preventDefault();
+
+            var wheelDelta = event.wheelDelta;
+
+            var currentScrollPosition = window.pageYOffset;
+            window.scrollTo(0, currentScrollPosition - wheelDelta);
+        });
+    }
 
 });
 
