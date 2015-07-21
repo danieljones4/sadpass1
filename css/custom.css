@@ -150,6 +150,9 @@ audio {
 }
 
 .bounceInUp {
+  -webkit-animation-duration: .8s;
+  -webkit-animation-name: bounceUp;
+  -webkit-animation-iteration-count: 1000;	
   animation-duration: .8s;
   animation-name: bounceUp;
   animation-iteration-count: 1000;
