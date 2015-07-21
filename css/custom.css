@@ -152,7 +152,13 @@ audio {
 .bounceInUp {
   -webkit-animation-duration: .8s;
   -webkit-animation-name: bounceUp;
-  -webkit-animation-iteration-count: 1000;	
+  -webkit-animation-iteration-count: 1000;
+  -o-animation-duration: .8s;
+  -o-animation-name: bounceUp;
+  -o-animation-iteration-count: 1000;	
+  animation-duration: .8s;
+  animation-name: bounceUp;
+  animation-iteration-count: 1000;	
   animation-duration: .8s;
   animation-name: bounceUp;
   animation-iteration-count: 1000;
@@ -162,6 +168,16 @@ audio {
 }
 
 @-webkit-keyframes bounceUp {
+	  from {
+	    padding-top: 10px; 
+	  }
+
+	  to {
+	    padding-top: -10px;
+	  	}
+}
+
+@-o-keyframes bounceUp {
 	  from {
 	    padding-top: 10px; 
 	  }
