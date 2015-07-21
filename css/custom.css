@@ -765,6 +765,11 @@ footer .links {
 
 @media (max-width: 767px) { 
 
+	.credits h2 {
+		font-size: 40px;
+		padding-top: 20px;
+	}
+
 	.button--large
 	{
 	   	width: 60px;
@@ -844,6 +849,8 @@ footer .links {
 }
 
 @media (max-width: 479px) {
+
+
 	.twitter-timeline {
 		max-height: 460px;
 	}
