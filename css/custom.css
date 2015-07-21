@@ -609,7 +609,9 @@ img.bg {
 @media (max-width: 767px) {
 
 	.fly {
+		-webkit-transition: all 1000ms ease-in-out;
 		-webkit-transform: translateY(100px) scale(1) translate3d(0, 0, 0);
+		transition: all 1000ms ease-in-out;
 		transform: translateY(100px) scale(1) translate3d(0, 0, 0);
 	}
 }
