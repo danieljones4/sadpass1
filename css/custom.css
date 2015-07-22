@@ -359,9 +359,13 @@ a.ScrollTo{
 
 
 .imgdiv {
-	background-image: url('../images/Sadpass/imgdiv copy.jpg');
+	-webkit-background-size: cover;
+	-webkit-background-image: url('../images/Sadpass/imgdiv copy.jpg'); fixed;
+	-moz-background-image: url('../images/Sadpass/imgdiv copy.jpg'); fixed;
+	-ms-background-image: url('../images/Sadpass/imgdiv copy.jpg'); fixed;
+	-o-background-image: url('../images/Sadpass/imgdiv copy.jpg'); fixed;
+	background-image: url('../images/Sadpass/imgdiv copy.jpg'); fixed;
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 /* background image copy pasta */ 
@@ -463,6 +467,10 @@ img.bg {
 	text-shadow: 4px 4px 7px #000;
 	padding-top: 40px;
 	font-weight: 500;
+}
+
+.credits strong {
+	color: #1F1F1F;
 }
 
 #socmedia {
