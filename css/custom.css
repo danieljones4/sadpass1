@@ -150,6 +150,50 @@ audio {
 	padding-left: 0px;
 }
 
+#buy {
+	-webkit-background-size: cover;
+	-webkit-background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	-moz-background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	-ms-background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	-o-background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	background-size: cover;
+}
+
+
+.buyboxes {
+	box-shadow: 10px 10px 20px #000;
+	background-color: black;
+	height: 400px;
+	margin: 10px 0px;
+	opacity: 0.9;
+	border-radius: 15px;
+	border: -15px;
+	padding: 0;
+    position: relative;
+    overflow:hidden;
+}
+
+.buyBackground {
+	text-align: left;
+  	padding: 0px 20px 0px 20px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-image: url("../images/texture2.jpg");
+    background-size: cover;
+}
+
+.buyBackground h1 {
+	font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	opacity: 1;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    transition: opacity 1s, transform 1s;
+}
+
 .bounceInUp {
   -webkit-animation-duration: .8s;
   -webkit-animation-name: bounceUp;
@@ -866,5 +910,9 @@ footer .links {
 		margin-bottom: 10%;
 	}
 
+}
+
+p.p2{
+	font-size: 15px;
 }
 
