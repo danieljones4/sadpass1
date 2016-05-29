@@ -200,6 +200,11 @@ audio {
     transition: opacity 1s, transform 1s;
 }
 
+div#buyplayer iframe {
+	min-height: 416.25px;
+	min-width: 416.25px;
+}
+
 .bounceInUp {
   -webkit-animation-duration: .8s;
   -webkit-animation-name: bounceUp;
