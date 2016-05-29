@@ -935,3 +935,14 @@ p.p2{
 	text-shadow: 0px 0px 8px black;
 	font-weight: 400;
 }
+
+#studio {
+	-webkit-background-size: cover;
+	-webkit-background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	-moz-background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	-ms-background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	-o-background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	background-size: cover;
+	background-attachment: fixed;
+}
