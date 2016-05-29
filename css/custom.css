@@ -158,8 +158,19 @@ audio {
 	-o-background-image: url('../images/Sadpass/buy.jpg'); fixed;
 	background-image: url('../images/Sadpass/buy.jpg'); fixed;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
+#buy h2 {
+	font-size: 35px;
+	-webkit-text-stroke: 1px black;
+	text-shadow: 4px 4px 7px #000;
+	font-weight: 500;
+}
+
+.buyplayer {
+	padding-bottom: 50px;
+}
 
 .buyboxes {
 	box-shadow: 10px 10px 20px #000;
@@ -178,7 +189,6 @@ audio {
 	text-align: left;
   	padding: 0px 20px 0px 20px;
     width: 100%;
-    position: absolute;
     color: white;
     background-image: url("../images/texture2.jpg");
     background-size: cover;
@@ -918,3 +928,8 @@ p.p2{
 
 }
 
+.buyboxes strong {
+	color: #e74c3c;
+	text-shadow: 0px 0px 8px black;
+	font-weight: 400;
+}
