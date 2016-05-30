@@ -812,6 +812,10 @@ footer .links {
 
 @media (max-width: 767px) { 
 
+	.social {
+		padding: 0px 50px;
+	}
+
 	.credits h2 {
 		font-size: 40px;
 		padding-top: 20px;
