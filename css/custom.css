@@ -1,6 +1,36 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
-
+#overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,1);
+	-webkit-transition: opacity ease-in-out 10s;
+	-moz-transition: opacity ease-in-out 10s;
+	-o-transition: opacity ease-in-out 10s;
+	-ms-transition: opacity ease-in-out 10s;
+	transition: opacity ease-in-out 10s;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}
 
 @font-face {
   font-family: 'Building';
@@ -148,6 +178,60 @@ audio {
 
 .audiopad {
 	padding-left: 0px;
+}
+
+#buy {
+	-webkit-background-size: cover;
+	-webkit-background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	-moz-background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	-ms-background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	-o-background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	background-image: url('../images/Sadpass/buy.jpg'); fixed;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#buy h2 {
+	font-size: 35px;
+	-webkit-text-stroke: 1px black;
+	text-shadow: 4px 4px 7px #000;
+	font-weight: 500;
+}
+
+
+.buyboxes {
+	box-shadow: 10px 10px 20px #000;
+	background-color: black;
+	margin: 10px 0px;
+	opacity: 1;
+	border-radius: 15px;
+	border: -15px;
+	padding: 0;
+    position: relative;
+    overflow:hidden;
+}
+
+.buyBackground {
+	text-align: left;
+  	padding: 0px 20px 0px 20px;
+    width: 100%;
+    color: white;
+    background-image: url("../images/texture2.jpg");
+    background-size: cover;
+}
+
+.buyBackground h1 {
+	font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	opacity: 1;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    transition: opacity 1s, transform 1s;
+}
+
+div#buyplayer iframe {
+	min-height: 416.25px;
+	min-width: 416.25px;
 }
 
 .bounceInUp {
@@ -371,6 +455,7 @@ a.ScrollTo{
 
 .noTouch .albCrd {
 	display: none;
+	font-size: 12px;
 }
 
 .splash h1 {
@@ -587,7 +672,7 @@ a.ScrollTo{
 
 }
 
-/*fly in animation */
+/*fly-in out animation */
 .fly {
   opacity: 0;
   -webkit-transition: all 1500ms ease-in-out;
@@ -611,7 +696,7 @@ a.ScrollTo{
   -webkit-transform: translateY(0) scale(1) translate3d(0, 0, 0);
   transform: translateY(0) scale(1) translate3d(0, 0, 0);
 }
-/*end fly in */
+/*End fly-in out */
 
 .featurette-image{
 	padding-top: 65px;
@@ -757,6 +842,10 @@ footer .links {
 
 @media (max-width: 767px) { 
 
+	.social {
+		padding: 0px 50px;
+	}
+
 	.credits h2 {
 		font-size: 40px;
 		padding-top: 20px;
@@ -868,3 +957,58 @@ footer .links {
 
 }
 
+p.p2{
+	font-size: 15px;
+	color: white;
+
+}
+
+.buyboxes strong {
+	color: #e74c3c;
+	text-shadow: 0px 0px 8px black;
+	font-weight: 400;
+}
+
+#studio {
+	-webkit-background-size: cover;
+	-webkit-background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	-moz-background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	-ms-background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	-o-background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	background-image: url('../images/Sadpass/studio.jpg'); fixed;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#studio {
+	height: 100%;
+	font-size: 72px;
+	text-transform: uppercase;
+	-webkit-text-stroke: .5px black;
+	text-shadow: 4px 4px 7px #000;
+	font-weight: 500;
+	color: white;
+}
+
+h1.bob {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+h1.marley {
+	text-align: right;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 100px;
+}
+
+.buyboxes p {
+	font-size: 16px;
+}
+
+p.purchase {
+	font-size: 14px;
+	color: red;
+	margin-bottom: 0px;
+}
