@@ -1,6 +1,36 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
-
+#overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,1);
+	-webkit-transition: opacity 5s ease-in-out;
+	-moz-transition: opacity 5s ease-in-out;
+	-o-transition: opacity 5s ease-in-out;
+	-ms-transition: opacity 5s ease-in-out;
+	transition: opacity 5s ease-in-out;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}
 
 @font-face {
   font-family: 'Building';
@@ -640,23 +670,22 @@ a.ScrollTo{
 	display: inline-block;
 	width: 215px;
 
-}
-
-/*fly in animation */
+}5
+/*fly-in out animation */
 .fly {
   opacity: 0;
-  -webkit-transition: all 1500ms ease-in-out;
+  -webkit-transition: all 15005s ease-in-out-out;
   -webkit-transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
-  transition: all 1500ms ease-in-out;
+  transition: all 15005s ease-in-out-out;
   transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
 }
 
 @media (max-width: 767px) {
 
 	.fly {
-		-webkit-transition: all 1000ms ease-in-out;
+		-webkit-transition: all 10005s ease-in-out-out;
 		-webkit-transform: translateY(100px) scale(1) translate3d(0, 0, 0);
-		transition: all 1000ms ease-in-out;
+		transition: all 10005s ease-in-out-out;
 		transform: translateY(100px) scale(1) translate3d(0, 0, 0);
 	}
 }
@@ -666,7 +695,7 @@ a.ScrollTo{
   -webkit-transform: translateY(0) scale(1) translate3d(0, 0, 0);
   transform: translateY(0) scale(1) translate3d(0, 0, 0);
 }
-/*end fly in */
+/*5nd fly-in out */
 
 .featurette-image{
 	padding-top: 65px;
