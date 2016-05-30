@@ -8,11 +8,11 @@
   bottom:0;
   right:0;
   background:rgba(0,0,0,1);
-	-webkit-transition: opacity 5s ease-in-out;
-	-moz-transition: opacity 5s ease-in-out;
-	-o-transition: opacity 5s ease-in-out;
-	-ms-transition: opacity 5s ease-in-out;
-	transition: opacity 5s ease-in-out;
+	-webkit-transition: opacity ease-in-out 10s;
+	-moz-transition: opacity ease-in-out 10s;
+	-o-transition: opacity ease-in-out 10s;
+	-ms-transition: opacity ease-in-out 10s;
+	transition: opacity ease-in-out 10s;
 }
 #progress{
   height:1px;
@@ -670,22 +670,23 @@ a.ScrollTo{
 	display: inline-block;
 	width: 215px;
 
-}5
+}
+
 /*fly-in out animation */
 .fly {
   opacity: 0;
-  -webkit-transition: all 15005s ease-in-out-out;
+  -webkit-transition: all 1500ms ease-in-out;
   -webkit-transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
-  transition: all 15005s ease-in-out-out;
+  transition: all 1500ms ease-in-out;
   transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
 }
 
 @media (max-width: 767px) {
 
 	.fly {
-		-webkit-transition: all 10005s ease-in-out-out;
+		-webkit-transition: all 1000ms ease-in-out;
 		-webkit-transform: translateY(100px) scale(1) translate3d(0, 0, 0);
-		transition: all 10005s ease-in-out-out;
+		transition: all 1000ms ease-in-out;
 		transform: translateY(100px) scale(1) translate3d(0, 0, 0);
 	}
 }
@@ -695,7 +696,7 @@ a.ScrollTo{
   -webkit-transform: translateY(0) scale(1) translate3d(0, 0, 0);
   transform: translateY(0) scale(1) translate3d(0, 0, 0);
 }
-/*5nd fly-in out */
+/*End fly-in out */
 
 .featurette-image{
 	padding-top: 65px;
