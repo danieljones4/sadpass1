@@ -1,6 +1,7 @@
 jQuery(document).ready(function() {
 
 	var navOffset = jQuery("nav").offset().top;
+	console.log(navOffset);
 
 	jQuery("nav").wrap('<div class="nav-placeholder"></div>');
 	jQuery(".nav-placeholder").height(jQuery("nav").outerHeight());
