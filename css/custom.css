@@ -157,7 +157,7 @@ audio {
 	-ms-background-image: url('../images/Sadpass/buy.jpg'); fixed;
 	-o-background-image: url('../images/Sadpass/buy.jpg'); fixed;
 	background-image: url('../images/Sadpass/buy.jpg'); fixed;
-	background-size: cover;
+	background-size: 100%;
 	background-attachment: fixed;
 }
 
