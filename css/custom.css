@@ -972,3 +972,9 @@ h1.marley {
 .buyboxes p {
 	font-size: 16px;
 }
+
+p.purchase {
+	font-size: 14px;
+	color: red;
+	margin-bottom: 0px;
+}
